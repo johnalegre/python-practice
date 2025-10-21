@@ -1156,8 +1156,21 @@
 #         positive_numbers.append(num)
 
 # print(positive_numbers)
-    
-        
+
+# def reverse_string(s):
+#     return s[::-1]
+
+# print(reverse_string("cloud"))
+
+
+def reverse_string(s):
+    reversed_str = ''
+    for char in s:
+        reversed_str = char + reversed_str
+    return reversed_str
+
+# Example
+print(reverse_string("cloud"))
 
 
         
