@@ -1110,7 +1110,7 @@
 #     return open_high
         
 # filtered = filter_urgent_tickets(tickets)
-# print("open high-priority tickets:", filtered
+# print("open high-priority tickets:", filtered)
 
 # temp = int(input("What is the current temperature?"))
 # if temp > 85:
@@ -1163,16 +1163,39 @@
 # print(reverse_string("cloud"))
 
 
-def reverse_string(s):
-    reversed_str = ''
-    for char in s:
-        reversed_str = char + reversed_str
-    return reversed_str
+# def reverse_string(s):
+#     reversed_str = ''
+#     for char in s:
+#         reversed_str = char + reversed_str
+#     return reversed_str
 
-# Example
-print(reverse_string("cloud"))
+# # Example
+# print(reverse_string("cloud"))
 
+# numbers = [1,2,3,4,5,6,7,8,9,10]
+# for num in numbers:
+#     print(num)
+
+# numbers = [1,10]
+# for num in numbers[::-1]:
+#     print(num)
+    
+# for num in numbers: 
+#     if num % 2 == 0: 
+#         print(num)
+
+    #I've never used start, stop, step)
+    #don't know what list comprehenions are
+
+#list comprehension (start, stop, step)
+
+# evens = [x for x in range(2, 21, 2)]
+
+
+bill_amount = float(input("what is the bill amount? "))
+tip = float(input("what's your desired tip percentage? "))
+tip_amount = bill_amount * (tip / 100)
+total = bill_amount + tip
+print(total)
 
         
-
-
